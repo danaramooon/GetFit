@@ -1,0 +1,151 @@
+.banner-area
+{
+	background:url(/assets/img/hero-bg.jpg) center center/cover;
+	background-size:cover
+}
+	@media (max-width: 767px)
+{
+.banner-area
+{
+	height:767px !important
+}
+
+}
+.detox-banner-area
+{
+	background:url(/assets/img/detox-bgn.jpg) center center/cover;
+	background-size:cover
+}
+.banner-content
+{
+	margin-top:150px
+}
+	@media (max-width: 1024px)
+{
+.banner-content
+{
+	margin-top:150px;
+}
+
+}
+	@media (max-width: 736px) and (min-width: 415px)
+{
+.banner-content
+{
+	margin-top:240px
+}
+
+}
+.banner-content h6
+{
+	text-transform:uppercase;
+	font-weight:300;
+	letter-spacing:2px
+}
+.banner-content h1
+{
+	font-size:60px;
+	font-weight:700;
+	margin:20px 0
+}
+	@media (max-width: 767px)
+{
+.banner-content h1
+{
+	font-size:40px
+}
+
+}
+.banner-content p
+{
+	max-width:515px;
+	margin-bottom:30px
+}
+.banner-content .primary-btn:hover
+{
+	background:#222;
+	color:#fff
+}
+.primary-btn
+{
+	background:#f42f2c;
+		line-height:42px;
+		padding-left:30px;
+		padding-right:30px;
+		border:none;
+		color:#fff;
+		display:inline-block;
+		font-size:14px;
+		font-weight:500;
+		position:relative;
+		text-transform:uppercase;
+		-webkit-transition:all 0.3s ease 0s;
+		-moz-transition:all 0.3s ease 0s;
+		-o-transition:all 0.3s ease 0s;
+		transition:all 0.3s ease 0s;
+		cursor:pointer;
+		position:relative
+}
+.primary-btn:focus
+{
+	outline:none
+}
+.primary-btn span
+{
+	color:#fff;
+		position:absolute;
+		top:50%;
+		transform:translateY(-60%);
+		right:30px;
+		-webkit-transition:all 0.3s ease 0s;
+		-moz-transition:all 0.3s ease 0s;
+		-o-transition:all 0.3s ease 0s;
+		transition:all 0.3s ease 0s
+}
+.primary-btn:hover
+{
+	color:#fff
+}
+.primary-btn:hover span
+{
+	color:#fff;
+	right:20px
+}
+.primary-btn.white
+{
+	border:1px solid #fff;
+	color:#fff
+}
+.primary-btn.white span
+{
+	color:#fff
+}
+.primary-btn.white:hover
+{
+	background:#fff;
+	color:#f42f2c
+}
+.primary-btn.white:hover span
+{
+	color:#f42f2c
+}
+.overlay
+{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0
+}
+.section-title
+{
+	text-align:center;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:80px
+}
+.section-title h1
+{
+	margin-bottom:10px
+}

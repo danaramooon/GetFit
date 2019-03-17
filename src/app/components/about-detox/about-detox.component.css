@@ -1,0 +1,77 @@
+.whole-wrap
+{
+	background-color:#f9f9ff
+}
+.generic-banner
+{
+	margin-top:60px;
+		background-color:#f42f2c;
+		text-align:center
+}
+.generic-banner.height
+{
+	height:600px
+}
+	@media (max-width: 767.98px)
+{
+.generic-banner.height
+{
+	height:400px
+}
+
+}
+.generic-banner.generic-banner-content h2
+{
+	line-height:1.2em;
+	margin-bottom:20px
+}
+	@media (max-width: 991.98px)
+{
+		.generic-banner.generic-banner-content h2 br
+{
+	display:none
+}
+
+}
+.generic-banner.generic-banner-content p
+{
+	text-align:center;
+	font-size:16px
+}
+	@media (max-width: 991.98px)
+{
+		.generic-banner.generic-banner-content p br
+{
+	display:none
+}
+
+}
+.generic-content h1
+{
+	font-weight:600
+}
+.about-generic-area
+{
+	background:#fff
+}
+.about-generic-area p
+{
+	margin-bottom:20px
+}
+.white-bg
+{
+	background:#fff
+}
+.section-top-border
+{
+	padding:50px 0;
+	border-top:1px dotted #eee;
+	background-color:#fff;
+}
+
+.icon_detox{
+	width: 15%;
+}
+.row{
+	margin-top:50px; 
+}
