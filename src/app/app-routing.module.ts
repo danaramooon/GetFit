@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HeaderComponent} from './components/header/header.component';
-import { AboutDetoxComponent } from './components/about-detox/about-detox.component';
+import {DetoxPageComponent} from './components/detox-page/detox-page.component'
 
 const routes: Routes = [
-  {path: 'detox', component: AboutDetoxComponent }
+  {path: 'detox', component: DetoxPageComponent },
+  {path:'header', component:HeaderComponent}
 ]
 
 @NgModule({

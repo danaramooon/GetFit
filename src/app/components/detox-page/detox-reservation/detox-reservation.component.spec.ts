@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PreferDetoxComponent } from './prefer-detox.component';
+import { DetoxReservationComponent } from './detox-reservation.component';
 
-describe('PreferDetoxComponent', () => {
-  let component: PreferDetoxComponent;
-  let fixture: ComponentFixture<PreferDetoxComponent>;
+describe('DetoxReservationComponent', () => {
+  let component: DetoxReservationComponent;
+  let fixture: ComponentFixture<DetoxReservationComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PreferDetoxComponent ]
+      declarations: [ DetoxReservationComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PreferDetoxComponent);
+    fixture = TestBed.createComponent(DetoxReservationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

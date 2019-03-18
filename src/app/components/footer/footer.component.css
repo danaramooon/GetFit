@@ -1,3 +1,4 @@
+
 .footer-area h4
 {
 	padding-bottom:30px
@@ -44,15 +45,13 @@
 .footer-widget-wrap
 {
 	background:#f42f2c;
-	color:#fff
+	color:#fff;
+
 }
-	@media (max-width: 991px)
-{
+	
 .single-footer-widget
 {
-	margin-bottom:30px
-}
-
+	margin-top:100px;
 }
 .single-footer-widget .navbar-form
 {
@@ -105,47 +104,7 @@
 	padding-bottom:20px;
 	border-bottom:1px solid rgba(238,238,238,0.3)
 }
-.footer-bottom-wrap
-{
-	background:#222;
-	color:#fff
-}
-.footer-bottom
-{
-	padding:15px 0px
-}
-	@media (max-width: 991px)
-{
-.footer-bottom .social-icons
-{
-	text-align:left !important;
-	margin-top:15px
-}
 
-}
-.footer-bottom .social-icons li
-{
-	display:inline-block
-}
-.footer-bottom .social-icons li a
-{
-	display:inline-block;
-	width:35px;
-	height:35px;
-	line-height:35px;
-	text-align:center;
-	background:#111111;
-	color:#fff;
-	-webkit-transition:all 0.3s ease 0s;
-	-moz-transition:all 0.3s ease 0s;
-	-o-transition:all 0.3s ease 0s;
-	transition:all 0.3s ease 0s
-}
-.footer-bottom .social-icons li a:hover
-{
-	background:#f42f2c;
-	color:#111111
-}
 .footer-text a,.footer-text i
 {
 	color:#f42f2c

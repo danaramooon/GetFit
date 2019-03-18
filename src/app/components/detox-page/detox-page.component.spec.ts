@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AboutDetoxComponent } from './about-detox.component';
+import { DetoxPageComponent } from './detox-page.component';
 
-describe('AboutDetoxComponent', () => {
-  let component: AboutDetoxComponent;
-  let fixture: ComponentFixture<AboutDetoxComponent>;
+describe('DetoxPageComponent', () => {
+  let component: DetoxPageComponent;
+  let fixture: ComponentFixture<DetoxPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AboutDetoxComponent ]
+      declarations: [ DetoxPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AboutDetoxComponent);
+    fixture = TestBed.createComponent(DetoxPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

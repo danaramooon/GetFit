@@ -53,7 +53,7 @@
 		position:relative;
 		color:#222;
 		font-size:12px;
-		font-weight:500
+		font-weight:400
 }
 	@media (max-width: 768px)
 {
@@ -133,7 +133,6 @@
 	background:#fff;
 	border-radius:10px;
 	padding:30px;
-	margin-top:20px
 }
 .single-menu .title-wrap
 {
@@ -147,4 +146,10 @@
 .single-menu .price
 {
 	color:#f42f2c
+}
+.detox-menu-img{
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
