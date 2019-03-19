@@ -6,6 +6,8 @@ import { ContactPageComponent } from './components/contact-page/contact-page.com
 import { ReviewPageComponent } from './components/review-page/review-page.component';
 import { ProgrammsPageComponent } from './components/programms-page/programms-page.component';
 import {MainPageComponent} from './components/main-page/main-page.component';
+import {MenuPageComponent} from './components/menu-page/menu-page.component';
+
 
 const routes: Routes = [
   {path: 'detox', component: DetoxPageComponent },
@@ -13,7 +15,7 @@ const routes: Routes = [
   { path: 'reviews', component: ReviewPageComponent },
   {path: 'programms', component: ProgrammsPageComponent},
   {path: 'main', component: MainPageComponent},
-
+  {path: 'menu', component: MenuPageComponent},
 ]
 
 @NgModule({

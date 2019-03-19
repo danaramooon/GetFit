@@ -10,6 +10,7 @@ import { ContactPageModule } from './components/contact-page/contact-page.module
 import { ReviewPageModule } from './components/review-page/review-page.module';
 import {MainPageModule} from './components/main-page/main-page.module';
 import {ProgrammsPageModule} from './components/programms-page/programms-page.module';
+import {MenuPageModule} from './components/menu-page/menu-page.module';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import {ProgrammsPageModule} from './components/programms-page/programms-page.mo
     ContactPageModule,
     ReviewPageModule,
     ProgrammsPageModule,
-    MainPageModule
+    MainPageModule,
+    MenuPageModule,
   ],
   providers: [],
 

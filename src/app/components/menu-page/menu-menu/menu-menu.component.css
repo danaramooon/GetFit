@@ -1,0 +1,155 @@
+.menu-area
+{
+	background:#f9f9ff
+}
+.menu-area .primary-btn
+{
+	color:#fff;
+	background-color:#f42f2c;
+	margin-left:auto;
+	margin-right:auto
+}
+.filter-wrap
+{
+	background:#fff;
+	border-radius:10px;
+	box-shadow:0px 10px 30px 0px rgba(153,153,153,0.2)
+}
+.menu-area .filters
+{
+	text-align:center
+}
+.menu-area .filters
+{
+	padding:0;
+	overflow:hidden
+}
+.filter-wrap
+{
+	display:table
+}
+.filter-wrap li
+{
+	display:table-cell;
+	border-right:1px solid #edf6ff
+}
+	@media (max-width: 414px)
+{
+.filter-wrap li
+{
+	display:block !important
+}
+
+}
+.filter-wrap li:last-child
+{
+	border:none
+}
+.menu-area .filters li
+{
+	padding:40px 0px;
+		max-width:184px;
+		cursor:pointer;
+		position:relative;
+		color:#222;
+		font-size:12px;
+		font-weight:400
+}
+	@media (max-width: 768px)
+{
+.menu-area .filters li
+{
+	padding:20px 0px
+}
+
+}
+	@media (max-width: 767px)
+{
+.menu-area .filters li
+{
+	padding:12px 0px;
+	font-size:10px
+}
+
+}
+	@media (max-width: 414px)
+{
+.menu-area .filters li
+{
+	max-width:100% !important
+}
+
+}
+.menu-area .filters li:last-child
+{
+	border-right:none
+}
+.menu-area .filters li.active
+{
+	color:#fff;
+	background:#f42f2c
+}
+.menu-area .filters-content
+{
+	margin-top:50px
+}
+.menu-area .filters-content .show
+{
+	opacity:1;
+	visibility:visible;
+	transition:all 350ms
+}
+.menu-area .filters-content .hide
+{
+	opacity:0;
+	visibility:hidden;
+	transition:all 350ms
+}
+.menu-area .filters-content .item
+{
+	text-align:center;
+	cursor:pointer;
+	margin-bottom:30px
+}
+.menu-area .filters-content .item img
+{
+	border-radius:10px
+}
+.menu-area .filters-content .p-inner
+{
+	padding:20px 0px;
+	text-align:center
+}
+.menu-area .filters-content .item .p-inner .cat
+{
+	font-size:13px
+}
+.menu-area .filters-content .item img
+{
+	width:100%
+}
+.single-menu
+{
+	background:#fff;
+	border-radius:10px;
+	padding:30px;
+}
+.single-menu .title-wrap
+{
+	margin-bottom:20px
+}
+.single-menu p
+{
+	margin-bottom:0px;
+	max-width:392px
+}
+.single-menu .price
+{
+	color:#f42f2c
+}
+.detox-menu-img{
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
