@@ -8,6 +8,7 @@ import { Component, OnInit,Input } from '@angular/core';
 export class BannerAreaComponent implements OnInit {
   @Input() imgPath = '';
   @Input() title = '';
+  @Input() title1 = '';
   constructor() { }
   
   ngOnInit() {
