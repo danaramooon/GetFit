@@ -5,6 +5,7 @@ import { DetoxMeComponent } from './detox-me/detox-me.component';
 import { DetoxAdvantagesComponent } from './detox-advantages/detox-advantages.component';
 import { DetoxMenuComponent } from './detox-menu/detox-menu.component';
 import { DetoxReservationComponent } from './detox-reservation/detox-reservation.component';
+import { BannerAreaModule } from '../banner-area/banner-area.module';
 
 @NgModule({
   declarations: 
@@ -14,7 +15,8 @@ import { DetoxReservationComponent } from './detox-reservation/detox-reservation
      DetoxAdvantagesComponent, 
      DetoxMenuComponent, DetoxReservationComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    BannerAreaModule
   ]
 })
 export class DetoxPageModule { }

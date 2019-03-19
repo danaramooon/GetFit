@@ -10,6 +10,7 @@ export class DetoxMenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }

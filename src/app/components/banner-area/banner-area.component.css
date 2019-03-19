@@ -11,11 +11,7 @@
 }
 
 }
-.detox-banner-area
-{
-	background: center;
-	background: cover;
-}
+
 .banner-content
 {
 	margin-top:150px
@@ -148,4 +144,9 @@
 .section-title h1
 {
 	margin-bottom:10px
+}
+.detox-banner-area
+{
+	background: center;
+	background: cover;
 }

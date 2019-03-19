@@ -1,0 +1,16 @@
+.contact-page-area
+{
+	background:#f9f9ff
+}
+.contact-page-area .map-wrap
+{
+	margin-bottom:120px
+}
+	@media (max-width: 991px)
+{
+.contact-page-area .map-wrap
+{
+	margin-bottom:50px
+}
+
+}

@@ -8,6 +8,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { FooterComponent } from './components/footer/footer.component';
 import {DetoxPageModule} from './components/detox-page/detox-page.module';
 import { ReviewsComponent } from './components/reviews/reviews.component'
+import { ContactPageModule } from './components/contact-page/contact-page.module';
 
 @NgModule({
   declarations: [
@@ -21,9 +22,10 @@ import { ReviewsComponent } from './components/reviews/reviews.component'
     BrowserModule,
     AppRoutingModule,
     DetoxPageModule,
-    
+    ContactPageModule,
   ],
   providers: [],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
