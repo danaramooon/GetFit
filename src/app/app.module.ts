@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { FooterComponent } from './components/footer/footer.component';
-import {DetoxPageModule} from './components/detox-page/detox-page.module'
+import {DetoxPageModule} from './components/detox-page/detox-page.module';
+import { ReviewsComponent } from './components/reviews/reviews.component'
 
 @NgModule({
   declarations: [
@@ -14,11 +15,12 @@ import {DetoxPageModule} from './components/detox-page/detox-page.module'
     HeaderComponent,
     BannerComponent,
     FooterComponent,
+    ReviewsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DetoxPageModule
+    DetoxPageModule,
     
   ],
   providers: [],
