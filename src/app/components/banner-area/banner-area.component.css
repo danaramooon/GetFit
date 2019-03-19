@@ -59,7 +59,7 @@
 }
 .banner-content .primary-btn:hover
 {
-	background:#222;
+	background:rgb(131, 123, 123);
 	color:#fff
 }
 .primary-btn
@@ -88,15 +88,8 @@
 }
 .primary-btn span
 {
-	color:#fff;
-		position:absolute;
-		top:50%;
-		transform:translateY(-60%);
-		right:30px;
-		-webkit-transition:all 0.3s ease 0s;
-		-moz-transition:all 0.3s ease 0s;
-		-o-transition:all 0.3s ease 0s;
-		transition:all 0.3s ease 0s
+		color:#fff;
+		
 }
 .primary-btn:hover
 {
@@ -147,6 +140,6 @@
 }
 .detox-banner-area
 {
-	background: center;
-	background: cover;
+	background-position: center center;
+	background-size: cover;
 }

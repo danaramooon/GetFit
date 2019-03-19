@@ -8,7 +8,8 @@ import { Component, OnInit,Input } from '@angular/core';
 export class BannerAreaComponent implements OnInit {
   @Input() imgPath = '';
   @Input() title = '';
-  @Input() title1 = '';
+  @Input() title1 = 'Лучший сервис по доставке правильного и сбалансированного питания в вашем городе!';
+  @Input() btnText = 'Выбрать программу';
   constructor() { }
   
   ngOnInit() {

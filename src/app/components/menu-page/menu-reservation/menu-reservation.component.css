@@ -1,6 +1,7 @@
 .reservation-area
 {
-	background:url(/assets/img/detox-bg.jpg) center center/cover
+	margin-top: 20px;
+	background:url(/assets/img/back.jpg) center center/cover
 }
 .reservation-area .overlay-bg
 {
