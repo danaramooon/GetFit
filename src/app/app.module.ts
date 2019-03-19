@@ -8,6 +8,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import {DetoxPageModule} from './components/detox-page/detox-page.module';
 import { ContactPageModule } from './components/contact-page/contact-page.module';
 import { ReviewPageModule } from './components/review-page/review-page.module';
+import {MainPageModule} from './components/main-page/main-page.module';
+import {ProgrammsPageModule} from './components/programms-page/programms-page.module';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { ReviewPageModule } from './components/review-page/review-page.module';
     AppRoutingModule,
     DetoxPageModule,
     ContactPageModule,
-    ReviewPageModule
+    ReviewPageModule,
+    ProgrammsPageModule,
+    MainPageModule
   ],
   providers: [],
 
